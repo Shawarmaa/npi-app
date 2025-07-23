@@ -38,7 +38,7 @@ export default function NPICalculator() {
     
     // Calculate NPI
     const npi = (0.2 * size) + lymphNodeStage + histologicalGrade;
-    setNpiResult(npi.toFixed(1));
+    setNpiResult(npi.toString());
     
     // Determine prognosis
     if (npi <= 2.4) {
